@@ -47,7 +47,7 @@ import { DEFAULT_ANSI_COLORS } from './renderer/ColorManager';
 import { MouseZoneManager } from './input/MouseZoneManager';
 import { AccessibilityManager } from './AccessibilityManager';
 import { ScreenDprMonitor } from './utils/ScreenDprMonitor';
-import { ITheme, ILocalizableStrings, IMarker, IDisposable } from 'xterm';
+import { ITheme, ILocalizableStrings, IMarker, IDisposable } from 'xterm-ex';
 import { removeTerminalFromCache } from './renderer/atlas/CharAtlasCache';
 import { DomRenderer } from './renderer/dom/DomRenderer';
 

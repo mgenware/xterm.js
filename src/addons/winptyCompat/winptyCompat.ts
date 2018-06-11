@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 import { IWinptyCompatAddonTerminal } from './Interfaces';
 
 export function winptyCompatInit(terminal: Terminal): void {

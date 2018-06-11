@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { FontWeight } from 'xterm';
+import { FontWeight } from 'xterm-ex';
 import { IColorSet } from '../Types';
 
 export const CHAR_ATLAS_CELL_SPACING = 1;

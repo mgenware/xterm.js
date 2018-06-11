@@ -5,7 +5,7 @@
 
 import { IRenderer, IRenderDimensions, IColorSet } from '../Types';
 import { ITerminal } from '../../Types';
-import { ITheme } from 'xterm';
+import { ITheme } from 'xterm-ex';
 import { EventEmitter } from '../../EventEmitter';
 import { ColorManager } from '../ColorManager';
 import { RenderDebouncer } from '../../utils/RenderDebouncer';

@@ -4,7 +4,7 @@
  */
 
 import { ITerminal } from '../Types';
-import { IEventEmitter, ITheme } from 'xterm';
+import { IEventEmitter, ITheme } from 'xterm-ex';
 import { IColorSet } from '../shared/Types';
 
 /**

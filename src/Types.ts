@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal as PublicTerminal, ITerminalOptions as IPublicTerminalOptions, IEventEmitter } from 'xterm';
+import { Terminal as PublicTerminal, ITerminalOptions as IPublicTerminalOptions, IEventEmitter } from 'xterm-ex';
 import { IColorSet, IRenderer } from './renderer/Types';
 import { IMouseZoneManager } from './input/Types';
 

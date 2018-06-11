@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 
 export interface IWinptyCompatAddonTerminal extends Terminal {
   buffer: any;

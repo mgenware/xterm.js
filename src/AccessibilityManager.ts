@@ -8,7 +8,7 @@ import { ITerminal, IBuffer } from './Types';
 import { isMac } from './shared/utils/Browser';
 import { RenderDebouncer } from './utils/RenderDebouncer';
 import { addDisposableListener } from './utils/Dom';
-import { IDisposable } from 'xterm';
+import { IDisposable } from 'xterm-ex';
 
 const MAX_ROWS_TO_READ = 20;
 

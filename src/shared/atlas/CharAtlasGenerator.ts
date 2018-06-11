@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { FontWeight } from 'xterm';
+import { FontWeight } from 'xterm-ex';
 import { CHAR_ATLAS_CELL_SPACING, ICharAtlasConfig } from './Types';
 import { IColor } from '../Types';
 import { isFirefox, isSafari } from '../utils/Browser';

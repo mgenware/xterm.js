@@ -4,7 +4,7 @@
  */
 
 import { SearchHelper } from './SearchHelper';
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 import { ISearchAddonTerminal } from './Interfaces';
 
 /**

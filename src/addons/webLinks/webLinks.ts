@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal, ILinkMatcherOptions } from 'xterm';
+import { Terminal, ILinkMatcherOptions } from 'xterm-ex';
 
 const protocolClause = '(https?:\\/\\/)';
 const domainCharacterSet = '[\\da-z\\.-]+';

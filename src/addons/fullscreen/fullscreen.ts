@@ -3,7 +3,7 @@
  * @license MIT
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 
 /**
  * Toggle the given terminal's fullscreen mode.

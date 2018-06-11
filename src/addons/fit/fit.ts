@@ -13,7 +13,7 @@
  *          row and truncate its width with the current number of columns).
  */
 
-import { Terminal } from 'xterm';
+import { Terminal } from 'xterm-ex';
 
 export interface IGeometry {
   rows: number;

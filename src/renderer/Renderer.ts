@@ -13,7 +13,7 @@ import { LinkRenderLayer } from './LinkRenderLayer';
 import { EventEmitter } from '../EventEmitter';
 import { RenderDebouncer } from '../utils/RenderDebouncer';
 import { ScreenDprMonitor } from '../utils/ScreenDprMonitor';
-import { ITheme } from 'xterm';
+import { ITheme } from 'xterm-ex';
 
 export class Renderer extends EventEmitter implements IRenderer {
   private _renderDebouncer: RenderDebouncer;

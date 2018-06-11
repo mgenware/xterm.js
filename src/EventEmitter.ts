@@ -4,7 +4,7 @@
  */
 
 import { XtermListener } from './Types';
-import { IEventEmitter, IDisposable } from 'xterm';
+import { IEventEmitter, IDisposable } from 'xterm-ex';
 
 export class EventEmitter implements IEventEmitter, IDisposable {
   private _events: {[type: string]: XtermListener[]};

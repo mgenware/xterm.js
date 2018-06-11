@@ -6,7 +6,7 @@
 import { CircularList } from './utils/CircularList';
 import { LineData, CharData, ITerminal, IBuffer } from './Types';
 import { EventEmitter } from './EventEmitter';
-import { IDisposable, IMarker } from 'xterm';
+import { IDisposable, IMarker } from 'xterm-ex';
 
 export const DEFAULT_ATTR = (0 << 18) | (257 << 9) | (256 << 0);
 export const CHAR_DATA_ATTR_INDEX = 0;
