@@ -7,7 +7,7 @@
  * to be stable and consumed by external programs.
  */
 
-declare module 'xterm' {
+declare module 'xterm-ex' {
   /**
    * A string representing text font weight.
    */
