@@ -75,7 +75,11 @@ function zmodemAttach(ws: WebSocket, opts: IZmodemOptions = {}): void {
       }
     }
     else {
-      zsentry.consume(evt.data);
+      try {
+        zsentry.consume(evt.data);
+      } catch (err) {
+        console.log(`Zmodem consume() failed with error: ${err.message}`);
+      }
     }
   }
 
