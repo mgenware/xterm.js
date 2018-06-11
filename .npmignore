@@ -46,3 +46,5 @@ build/
 fixtures/
 coverage/
 demo/
+
+/dist/addons/zmodem/demo/
